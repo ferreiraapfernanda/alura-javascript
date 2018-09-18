@@ -86,3 +86,9 @@
 
     Fazemos a animação no css, e adicionamos  a clase ao elemento.
     Depois, podemos fazer um ``setTimeout(function, 500)`` para dar um tempo até ele executar a ação.
+
+- **Pega a digitação**
+
+    ```js
+    campo.addEventListener("input", function(){...})
+    ```
