@@ -92,3 +92,15 @@
     ```js
     campo.addEventListener("input", function(){...})
     ```
+- **Requisições**
+
+    ```js
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("GET", "url.api.com.br");
+    xhr.addEventListener("load", function(){
+        var resultado = xhr.responseText;
+        var pacientes = JSON.parse(resultado);
+    });
+    xhr.send();
+    ```
